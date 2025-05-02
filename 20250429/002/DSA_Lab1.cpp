@@ -230,6 +230,7 @@ int main(int argc, char *argv[]) {
 		}
 	}
 
+	outFile << std::endl;
 	inFile.close();
 	outFile.close();
 	return 0;
